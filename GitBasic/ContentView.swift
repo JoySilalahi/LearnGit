@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationStack {
             List {
                 NavigationLink("Create a story") {
-                    DefinitionView(title: "Create a story", definition: "My story is on the Whiteboard")
+                    DefinitionView(title: "Create a story", definition: "My story is on the Whiteboard, Joy Si Tinggi")
                 }
                 NavigationLink("Version Control") {
                     DefinitionView(title: "Version Control", definition: "Version control is a system that records changes to a file or set of files over time.")
